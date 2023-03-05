@@ -2,9 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const robin = {
+    name: "robins",
+    roll: 10,
+  }
   return (
     <div className="App">
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium sequi tenetur a dolorem ea illum dolore omnis iure vero esse?</p>
+      <p>{robin.name}</p>
     </div>
   );
 }
