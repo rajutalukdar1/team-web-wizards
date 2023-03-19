@@ -1,9 +1,11 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
+import router from './Routes/Routes/Routes';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-2xl font-bold'>Bangladesh</h1>
+    <div div className='max-w-[1350px] mx-auto'>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
